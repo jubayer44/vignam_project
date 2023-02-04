@@ -1,0 +1,54 @@
+[
+  {
+    "class": "1",
+    "SC": "1 English",
+    "id": "1",
+    "subject": [
+      { "name": "English", "cls": "1" },
+      { "name": "Mathematics", "cls": "1" }
+    ]
+  },
+  {
+    "class": "2",
+    "id": "2",
+    "subject": [
+      { "name": "English", "cls": "2" },
+      { "name": "Mathematics", "cls": "2" }
+    ]
+  },
+  {
+    "class": "3",
+    "id": "3",
+    "subject": [
+      { "name": "English", "cls": "3" },
+      { "name": "Mathematics", "cls": "3" }
+    ]
+  },
+  {
+    "class": "4",
+    "id": "4",
+    "subject": [
+      { "name": "English", "cls": "4" },
+      { "name": "Mathematics", "cls": "4" },
+      { "name": "science", "cls": "4" }
+    ]
+  },
+  {
+    "class": "5",
+    "id": "5",
+    "subject": [
+      { "name": "English", "cls": "5" },
+      { "name": "Mathematics", "cls": "5" },
+      { "name": "science", "cls": "5" }
+    ]
+  },
+  {
+    "class": "6",
+    "id": "6",
+    "subject": [
+      { "name": "English", "cls": "6" },
+      { "name": "Mathematics", "cls": "6" },
+      { "name": "science", "cls": "6" }
+    ]
+  }
+]

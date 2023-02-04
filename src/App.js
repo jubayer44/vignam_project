@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import { createContext, useState } from 'react';
 import './App.css';
+import Home from './Pages/Home';
+import NavBar from './Pages/Navbar';
 
+export const AuthContext = createContext();
 function App() {
+  const [ansId, setAnsId] = useState(1);
+  const [classes, setClasses] = useState(false);
+  const [value, setValue] = useState({});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthContext.Provider value={{value, setValue, ansId, setAnsId, classes, setClasses}}>
+      <NavBar />
+      <Home />
+    </AuthContext.Provider>
   );
 }
 

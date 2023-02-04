@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.accordion {
+  border: 1px solid #dcdcdc;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.accordion-item:last-of-type {
+  border-bottom: 0;
+}
+
+.accordion-item [aria-expanded="true"] ~ .accordion-content {
+  display: block;
+}
+
+.accordion-content {
+  display: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
